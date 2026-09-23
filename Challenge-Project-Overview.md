@@ -1,3 +1,42 @@
+---
+
+> ## Challenge Advisor: Update & Finalize Your Project Overview
+>
+> > 💡 **These grey text instructions are just for you, the team's Challenge Advisor; please delete them once you have completed the steps below.**
+>
+> We've pre-populated this Challenge Project Overview page — which is what will be shared with your Break Through Tech student team in August — using the details from your submission form. You should have received an email inviting you to join this repo as a Collaborator, enabling you to add files and make edits.
+> 
+> In order for your project to be finalized and assigned to a team, please:
+> 1. **Review all sections below** and update or expand any content as needed, making sure to address the SME Feedback in the section immediately below. Look for square brackets to find the places below that require additional inputs from you (e.g., "About [Company / Org Name]").
+> 2. **Add your dataset** to the [data folder](data) in this repo.
+> 3. **Close the Issue assigned to you in this repo** to let us know that you have made your edits and the overview page is ready for final review. You can do this by going to the _Issues_ tab in the top left section of the menu above, add a comment that says "CA review complete", and click the button to Close the Issue. 
+>
+> If you're unfamiliar with how to edit a page like this in GitHub, check out [this tutorial](https://ubc-lib-geo.github.io/gis-workshop-waml-template/content/handson/edit-readme.html) for a quick overview (start with step 2 and only edit this page), and [this guide](https://ubc-lib-geo.github.io/gis-workshop-waml-template/content/markdown.html) on how to use Markdown to compose text.
+>
+>
+> ❌ Remember that this is a public repo. Do NOT include: Proprietary data, PII, API keys, credentials, or anything confidential.
+
+---
+
+## 📋 BTT Internal Evaluation Notes
+*(This section is for BTT staff and CAs only — remove before sharing with students)*
+
+### Technical Vetting
+| Check | Status | Notes |
+| :--- | :--- | :--- |
+| Python Compatibility | 🟢 | Project utilizes standard Python NLP libraries (HuggingFace, Scikit-learn, Pandas). No exotic frameworks requested. |
+| Data Readiness | 🟡 | Data sources are clean but disparate across multiple repositories. Students will need to normalize heterogeneous schemas from LMSYS and JailbreakBench. |
+| Resource Check | 🟡 | Potential risk if students attempt to use local LLMs for inference; project must enforce API-call-only or lightweight local embedding models to fit Colab memory constraints. |
+
+### Internal Scores
+- **Student Fit Score:** 6.5/10
+- **Technical Depth Score:** 8/10
+- **Overall Recommendation:** REVISE
+
+### Advisor Feedback Draft
+This project offers a compelling real-world application of AI governance. To succeed, first, pivot the focus from a 'Gateway' infrastructure (which risks becoming a DevOps exercise) to an 'Evaluation Pipeline' that labels and categorizes prompt safety. Second, strictly limit the model selection to a maximum of two endpoints to prevent excessive boilerplate code. Please submit a refined data pipeline schema by EOW to finalize the scope.
+
+---
 
 # Governed Prompt Gateway: Token Efficient and safety aware LLM routing for regulated customer
 
