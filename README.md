@@ -11,10 +11,10 @@
 | Name             | GitHub Handle | Contribution                                                             |
 |------------------|---------------|--------------------------------------------------------------------------|
 | David Evers      | @davidevers   | Data exploration, visualization, overall project coordination            |
-| Jordan Ramirez   | @jramirez     | Data collection, exploratory data analysis (EDA), dataset documentation  |
-| Amina Hassan     | @aminahassan  | Data preprocessing, feature engineering, data validation                 |
-| Priya Mehta      | @pmehta       | Model selection, hyperparameter tuning, model training and optimization  |
-| Chris Park       | @chrispark    | Model evaluation, performance analysis, results interpretation           |
+| name name  | @name name    | Data collection, exploratory data analysis (EDA), dataset documentation  |
+| name name     | @name name  | Data preprocessing, feature engineering, data validation                 |
+| name name      | @name name       | Model selection, hyperparameter tuning, model training and optimization  |
+| name name      | @name name   | Model evaluation, performance analysis, results interpretation           |
 
 ---
 
