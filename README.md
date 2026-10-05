@@ -11,7 +11,7 @@
 | Name             | GitHub Handle | Contribution                                                             |
 |------------------|---------------|--------------------------------------------------------------------------|
 | David Evers      | @davidevers   | Data exploration, visualization, overall project coordination            |
-| name name  | @name name    | Data collection, exploratory data analysis (EDA), dataset documentation  |
+| Aaron Li  | @aazurez    | tbd  |
 | name name     | @name name  | Data preprocessing, feature engineering, data validation                 |
 | name name      | @name name       | Model selection, hyperparameter tuning, model training and optimization  |
 | name name      | @name name   | Model evaluation, performance analysis, results interpretation           |
