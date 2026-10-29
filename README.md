@@ -14,10 +14,10 @@
 | :--- | :--- | :--- |
 | David Evers | @davidevers | Data exploration, visualization, overall project coordination |
 | Aaron Li | @aazurezt | Data preprocessing, feature engineering, data validation |
-| Ruth Assefa | TBD | Model selection, hyperparameter tuning, model training |
+| Ruth Assefa | @RuthA120 | Model selection, hyperparameter tuning, model training |
 | Sangam Subedi | TBD | Model evaluation, performance analysis, results interpretation |
 | Abeih Hamani | TBD | Caching implementation, token optimization |
-| Tung Nguyen | TBD | Governance layer, risk classification testing |
+| Tung Nguyen | @tonyh1306 | Governance layer, risk classification testing |
 
 *(Note: Update GitHub handles and specific contributions as the project progresses).*
 
