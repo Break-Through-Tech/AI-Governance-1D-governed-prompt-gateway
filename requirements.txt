@@ -1,7 +1,10 @@
 
 torch
-transformers>=4.51
+numpy>=1.26,<2.0
+scipy>=1.13,<2
+transformers>=4.51,<5
 peft
 accelerate
 scikit-learn
 tqdm
+streamlit>=1.36

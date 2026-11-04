@@ -1,5 +1,21 @@
 # AI Studio Challenge Project Title
 
+## Prompt safety dashboard
+
+Run the interactive dashboard locally in a clean virtual environment:
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+.venv/bin/python -m streamlit run app.py
+```
+
+If you already installed dependencies into a broken environment, recreate the environment before installing. NumPy and SciPy are declared explicitly, and Transformers is kept on its 4.x major version for compatibility with the model code.
+
+The dashboard downloads `Qwen/Qwen3Guard-Stream-0.6B` from Hugging Face the first time it runs, then accepts a prompt and reports its risk level and category. Choose whether only `Unsafe` or both `Controversial` and `Unsafe` should count as a negative result. A GPU is helpful but not required; CPU inference can be slower.
+
 > 💡 **Note for the team:** This is just a template. Update the above title with your AI Studio Challenge Project name. Remove all guidance notes and example text in this template and populate this README with your own content. You can work on this README throughout AI Studio, and get feedback from your AI Studio Coach and Challenge Advisor before finalizing it.  
 
 ---
